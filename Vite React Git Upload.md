@@ -1,5 +1,5 @@
-#Deploying  a react app to Github(Vite)
-1. create a github repo.
+# Deploying  a react app to Github(Vite)
+1.  Create a github repo.
 2.    ``` /vite.config.js
         base: "/ <repo_name>",
       ```
@@ -20,13 +20,13 @@
     ```
 6. ```npm
       git add . 
-  ```
-7. ```git
+   ```
+7.   ```git
       git commit -m "first commit"
       git branch -M main
       git remote add origin https://github.com/manishborah151/<repo_name>.git
       git push -u origin main
-  ```
-8.```npm
-    npm run deploy
-  ```
+     ```
+8. ```npm
+      npm run deploy
+   ```
