@@ -30,3 +30,9 @@
 8. ```npm
       npm run deploy
    ```
+
+8. if need to update url
+   ```
+      git remote set-url origin https://github.com/manishborah151/<repo_name>.git
+   ```
+   
